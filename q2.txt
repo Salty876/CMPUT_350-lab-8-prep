@@ -1,0 +1,11 @@
+2. 1. Answer: Top Left Triangle: (600, 150)
+                                 (200, 150)
+                                 (200, 450)
+                                 
+              Bottom Left Triangle: (200, 450)
+                                    (600, 450)
+                                    (600, 150)
+2. 2. Answer: If we just store the 4 points of the rectangle in counter clockwise order [(200, 150), (200, 450), (600, 450), (600, 150)], and the indices as [3, 0, 1, 1, 2, 3] we spend 56 bytes as opposed to the original 48 bytes. If we used doubles
+              instead of floats, the new implementation woulc cost 88 bytes and the one in part a would be 96 bytes making the new one take less memory.
+
+2. 3. Answer: Normalized UV coords = (0.75, 0.503)
